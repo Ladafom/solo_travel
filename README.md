@@ -1,8 +1,31 @@
-# React + Vite
+# Solo travel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Solo travel](/src/readmeImg/solo_travel.png)
 
-Currently, two official plugins are available:
+# Запуск проекта
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Установка зависимостей:
+```
+npm install
+```
+Запуск на локальном сервере:
+```
+npm run dev
+```
+# Технологический стек
+
+- React (JSX)
+- HTML
+- CSS без препроцессора
+- Zustand
+- Vite
+
+# Функционал
+
+- Отображение информации о путешествиях
+- Добавление информации о путешествии
+
+# Примечание
+
+- Добавленные путешествия не сохраняются после обновления страницы
+- Планируется добавить удаление информации о путешествиях
