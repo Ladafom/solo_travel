@@ -1,0 +1,26 @@
+@media (max-width:740px) {
+  .travel-info{
+    max-width: 100%;
+  }
+  .travel-card {
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .travel-img {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+  }
+  .add-travel-img {
+    color: #fff;
+    background: #F55A5A;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter';
+}
+h1, p, button, label {
+  margin: 0;
+  font-family: 'Inter';
+}
+
+#root {
+  max-width: 90%;
+  margin: 0 auto;
+}

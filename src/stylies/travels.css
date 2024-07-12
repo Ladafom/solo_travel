@@ -1,0 +1,100 @@
+.travels-list{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.travel-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row;
+}
+.travel-info{
+  max-width: 60%;
+}
+.travel-img {
+  width: 25%;
+  object-fit: cover;
+}
+.travel-place {
+  display: flex;
+  gap: 4px;
+  padding-bottom:4px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.country {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.741px;
+  padding-right: 8px;
+}
+.google-location {
+  color: #918E9B;
+}
+.place-name {
+  color: #2B283A;
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 19px;
+}
+.date {
+  color: #2B283A;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 9px;
+  margin: 0;
+}
+.travel-description {
+  color: #2B283A;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.add-travel-btn {
+  background-color: #F55A5A;
+  color: #fff;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  padding: 20px 0 20px 0;
+}
+.margin {
+  margin-top: 30px;
+}
+.travel-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.travel-form > label > input, .travel-form > label > textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 50px;
+  border:  1px solid #F55A5A;
+  font-size: 16px;
+}
+textarea:focus, input:focus{
+  outline: 1px solid #F55A5A;
+}
+.add-travel-img {
+  color: #fff;
+  background: #F55A5A;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px;
+  max-width: 10%;
+  text-align: center;
+}
+.travel-img-preview {
+  width: 100px;
+  height: 100px;
+}
+.image-file{
+  display: none;
+}
